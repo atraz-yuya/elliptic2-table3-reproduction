@@ -1,0 +1,30 @@
+{
+  "protocol": "Outer test funding IDs absent from all fit/validation node roles",
+  "mask": "Remove held-out external node instances and incident edges in fit/validation only",
+  "evaluation": "Same test graph data, IDs and labels as the Table 2 reconstruction",
+  "baseline_manifest_sha256": "53ab12cfcedf6f34f374adee69050c270940d4cc8caeb16aae62da6fbec37cea",
+  "split_sha256": "4b739486a1a8ae3a7c12dea5db756d54b55ae1bade2fc099cb1428dbdea6eb00",
+  "code_sha256": "85ee03c93376e03f98c8aab71ef506a2f3a26a367aab2c1ce3b3597eb755edbf",
+  "device": "cuda",
+  "torch": "2.12.0+cu130",
+  "training": {
+    "outer_split": "stratified 10-fold",
+    "inner_validation": "stratified 10% of outer training",
+    "seed": 42,
+    "fold_seed": "seed plus one-based fold",
+    "steps": {
+      "gcn": 12000,
+      "graphsage": 6000,
+      "gat": 12000,
+      "gin": 6000
+    },
+    "batch_size": 128,
+    "validation_interval": 400,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "loss": "unweighted BCEWithLogitsLoss",
+    "sampler": "shuffled epochs without replacement",
+    "checkpoint": "maximum validation AP, earliest step on ties",
+    "threshold": "maximum validation F1, highest threshold on ties, score >= threshold"
+  }
+}

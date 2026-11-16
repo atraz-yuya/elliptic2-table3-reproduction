@@ -1,0 +1,200 @@
+{
+  "status": "passed",
+  "experiment_sha256": "53ab12cfcedf6f34f374adee69050c270940d4cc8caeb16aae62da6fbec37cea",
+  "data_and_code_hashes_verified": true,
+  "public_labels": {
+    "licit": 119047,
+    "suspicious": 2763
+  },
+  "outputs": {
+    "runs_verified": 40,
+    "folds": {
+      "1": {
+        "fit_clusters": 350154,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 943
+      },
+      "2": {
+        "fit_clusters": 349671,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 850
+      },
+      "3": {
+        "fit_clusters": 349712,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 796
+      },
+      "4": {
+        "fit_clusters": 349403,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 815
+      },
+      "5": {
+        "fit_clusters": 349424,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 887
+      },
+      "6": {
+        "fit_clusters": 350418,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 794
+      },
+      "7": {
+        "fit_clusters": 350214,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 891
+      },
+      "8": {
+        "fit_clusters": 349878,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 836
+      },
+      "9": {
+        "fit_clusters": 349798,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 834
+      },
+      "10": {
+        "fit_clusters": 350262,
+        "test_member_clusters_in_fit": 0,
+        "test_external_clusters_in_fit": 878
+      }
+    }
+  },
+  "attributes": {
+    "raw_rows": 49299864,
+    "columns": [
+      "feat#1",
+      "feat#2",
+      "feat#3",
+      "feat#4",
+      "feat#5",
+      "feat#6",
+      "feat#7",
+      "feat#8",
+      "feat#9",
+      "feat#10",
+      "feat#11",
+      "feat#12",
+      "feat#13",
+      "feat#14",
+      "feat#15",
+      "feat#16",
+      "feat#17",
+      "feat#18",
+      "feat#19",
+      "feat#20",
+      "feat#21",
+      "feat#22",
+      "feat#23",
+      "feat#24",
+      "feat#25",
+      "feat#26",
+      "feat#27",
+      "feat#28",
+      "feat#29",
+      "feat#30",
+      "feat#31",
+      "feat#32",
+      "feat#33",
+      "feat#34",
+      "feat#35",
+      "feat#36",
+      "feat#37",
+      "feat#38",
+      "feat#39",
+      "feat#40",
+      "feat#41",
+      "feat#42",
+      "feat#43"
+    ],
+    "cached_clusters": 737870,
+    "model_clusters": 431685,
+    "raw_rows_matched": 737870,
+    "cached_ids_missing": 0,
+    "cached_ids_duplicated_in_raw": 0,
+    "mismatched_attribute_rows": 0,
+    "raw_sha256": "e8f40badc710e2dfd207edfa86ebe5f3e802a4df5ebad0ede8ae69518c3dd313"
+  },
+  "background_edges": {
+    "raw_rows": 196215606,
+    "boundary_transactions": 1555409,
+    "internal_transactions": 367137,
+    "unique_boundary_records": 919018,
+    "zip_member": "background_edges.csv",
+    "zip_member_bytes": 82877432755,
+    "zip_member_crc32": "82282fb9",
+    "internal_missing_transactions": 0,
+    "internal_extra_transactions": 0,
+    "boundary_difference": {
+      "missing": 0,
+      "extra": 0
+    }
+  },
+  "graph_input": {
+    "graph_ids": 97448,
+    "node_instances": 635503,
+    "directed_edges": 584929,
+    "node_role_difference": {
+      "missing": 0,
+      "extra": 0
+    },
+    "edge_difference": {
+      "missing": 0,
+      "extra": 0
+    },
+    "table2": {
+      "licit": {
+        "graphs": 95249,
+        "member": [
+          3.6459805352287162,
+          3.1694018642407378
+        ],
+        "funding": [
+          1.5863158668332475,
+          2.0082629057444814
+        ],
+        "receiving": [
+          1.4324139885983056,
+          2.1660723161143163
+        ],
+        "nodes": [
+          6.514609077260654,
+          4.772457588588418
+        ],
+        "edges": [
+          5.996892355825258,
+          5.747547370327746
+        ]
+      },
+      "suspicious": {
+        "graphs": 2199,
+        "member": [
+          3.7953615279672577,
+          2.6517555336388723
+        ],
+        "funding": [
+          1.5402455661664394,
+          1.696513079103109
+        ],
+        "receiving": [
+          1.6512050932241928,
+          2.428361605043864
+        ],
+        "nodes": [
+          6.818099135970896,
+          4.340974323526888
+        ],
+        "edges": [
+          6.244201909959072,
+          4.74844275868976
+        ]
+      }
+    }
+  },
+  "graph_recheck": {
+    "reason": "Corrected the independent source/sink audit to use the cluster-ID index.",
+    "reference": "Internal CSV and SQLite boundary records were both verified against the full raw background scan and rechecked by SHA-256.",
+    "audit_script_sha256": "3fa263e17cb1a733aa6200c6996f7507275b49f6e95a3d62b067e8d9c4051e08"
+  }
+}

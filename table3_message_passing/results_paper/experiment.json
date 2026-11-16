@@ -1,0 +1,109 @@
+{
+  "protocol": "Table 3 with observation graphs reconstructed to match Table 2",
+  "authors_inputs": "Author IDs, folds, and baseline code unavailable. Table 2 aggregates match to published precision.",
+  "pool": "Elliptic2 official GLASS train rule on first appearances in nodes.csv",
+  "graph": "Internal raw arcs; direct incoming edges into internal sources; direct outgoing edges out of internal sinks",
+  "references": {
+    "paper": "https://doi.org/10.3390/math14213924",
+    "official_pool_rule": "https://github.com/MITIBMxGraph/Elliptic2/blob/main/preprocess_glass.py#L67-L79",
+    "pdf_sha256": "bb5480425721d38ce845bc1d041326e6f5f232b2d750aef0cd5fe10d29df57c0",
+    "assumptions": "README_paper.md"
+  },
+  "sources": {
+    "sources": {
+      "labels": {
+        "path": "data/elliptic2_raw/connected_components.csv",
+        "sha256": "79511c49f76110d0feae7feda7e85279bc442efe31f5e7a9f53b2caf0019062b"
+      },
+      "members": {
+        "path": "data/elliptic2_raw/nodes.csv",
+        "sha256": "c39fe3ac90da31b0684ec2c55d52225aa41a8fa1edccff8aff5ae1fd8817de18"
+      },
+      "internal": {
+        "path": "data/elliptic2_raw/edges.csv",
+        "sha256": "cd5706110242ddb5505074f65287c45f1ff7dbfb52a0ef1c2e6a45da569e3ad0"
+      },
+      "boundary": {
+        "path": "data/processed/node_classification/boundary_unique_neighbors.sqlite",
+        "sha256": "a6fa1a1797525b9962c43ad2d3af9ab6b5da8199ed9e5b0f6c306a30c4252edc"
+      },
+      "boundary_provenance": {
+        "path": "data/processed/node_classification/node_boundary_metadata.json",
+        "sha256": "3e64a24cb755a4fe8b11f9b8b92901b67a0c85307cd7a47c0aee3b8535a64556"
+      },
+      "member_attributes": {
+        "path": "data/processed/eda/labeled_internal_nodes.csv",
+        "sha256": "c64d8a0b963cc28b9d882ee0176bd3ef3774e57fcf587ac2424dbc1614b31423"
+      },
+      "boundary_attributes": {
+        "path": "data/processed/node_classification/onehop_neighbor_attributes.csv",
+        "sha256": "4ec1d370e4cc43b883af1ff677da67ea42f94c337e63bf94d8d629d0fb4dc837"
+      },
+      "boundary_degrees": {
+        "path": "data/processed/node_classification/node_boundary_features.csv",
+        "sha256": "765034b1ea663092c4f2f014706c06a888cc1ccb2d5bbeec55ee40cd0b7fc1cd"
+      }
+    },
+    "boundary_extraction": {
+      "source": "/home/atraz/research/elliptic2-structure-thesis/data/elliptic2_raw/background_edges.csv.zip",
+      "chunk_size": 500000,
+      "annotated_nodes": 444521,
+      "background_edges_scanned": 196215606,
+      "internal_rows": 367137,
+      "boundary_rows": 1555409,
+      "other_rows": 194293060,
+      "features": [
+        "boundary_in_degree",
+        "boundary_out_degree",
+        "boundary_in_tx",
+        "boundary_out_tx",
+        "boundary_total_tx",
+        "boundary_net_tx"
+      ],
+      "elapsed_seconds": 488.4557665299999,
+      "test_labels_used": false,
+      "definition": "Directed background edges crossing the annotated subgraph boundary"
+    }
+  },
+  "code_sha256": {
+    "dataset.py": "2afdca398bd2cd3b679a66172c5edfa6064bc1ae6da4b0e48ed63c044365293c",
+    "models.py": "c8548d913a97a92b67e32065303e61b7cd6b0e5712fb562298aa862f2ff5e547",
+    "run.py": "c9fec07b3411e120c33de69e3070134770bad8d842eba04abbc94b5d92813136",
+    "paper.py": "7102293b0cf3c515c12563c0cf9db422afe098eaaaec12caf87d45029e617cf6"
+  },
+  "environment": {
+    "python": "3.12.3",
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "cuda": "13.0",
+    "libraries": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "scipy": "1.18.1",
+      "torch": "2.12.0+cu130"
+    }
+  },
+  "training": {
+    "outer_split": "stratified 10-fold",
+    "inner_validation": "stratified 10% of outer training",
+    "seed": 42,
+    "fold_seed": "seed plus one-based fold",
+    "steps": {
+      "gcn": 12000,
+      "graphsage": 6000,
+      "gat": 12000,
+      "gin": 6000
+    },
+    "batch_size": 128,
+    "validation_interval": 400,
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "loss": "unweighted BCEWithLogitsLoss",
+    "sampler": "shuffled epochs without replacement",
+    "checkpoint": "maximum validation AP, earliest step on ties",
+    "threshold": "maximum validation F1, highest threshold on ties, score >= threshold"
+  },
+  "splits_sha256": "4b739486a1a8ae3a7c12dea5db756d54b55ae1bade2fc099cb1428dbdea6eb00"
+}

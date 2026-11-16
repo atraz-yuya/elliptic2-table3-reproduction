@@ -1,0 +1,353 @@
+{
+  "method": "maximum same-role cluster positive-label rate from fit, smoothed with 20 observations at fit prevalence; fit prevalence for no role nodes; separate diagnostic, never a GNN input",
+  "summary": {
+    "funding": {
+      "mean": 0.8670369109488721,
+      "sample_sd": 0.02969416657993049
+    },
+    "receiving": {
+      "mean": 0.1349083935957288,
+      "sample_sd": 0.022469763382977587
+    }
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "role": "funding",
+      "ap": 0.8876001931538484
+    },
+    {
+      "fold": 1,
+      "role": "receiving",
+      "ap": 0.1220980606560606
+    },
+    {
+      "fold": 2,
+      "role": "funding",
+      "ap": 0.8806366323794762
+    },
+    {
+      "fold": 2,
+      "role": "receiving",
+      "ap": 0.13996726955725677
+    },
+    {
+      "fold": 3,
+      "role": "funding",
+      "ap": 0.8189308368746959
+    },
+    {
+      "fold": 3,
+      "role": "receiving",
+      "ap": 0.14621896572133525
+    },
+    {
+      "fold": 4,
+      "role": "funding",
+      "ap": 0.8468978379879215
+    },
+    {
+      "fold": 4,
+      "role": "receiving",
+      "ap": 0.11947166624861486
+    },
+    {
+      "fold": 5,
+      "role": "funding",
+      "ap": 0.8506834315429523
+    },
+    {
+      "fold": 5,
+      "role": "receiving",
+      "ap": 0.09077110706188156
+    },
+    {
+      "fold": 6,
+      "role": "funding",
+      "ap": 0.8871177629752287
+    },
+    {
+      "fold": 6,
+      "role": "receiving",
+      "ap": 0.15009729823644374
+    },
+    {
+      "fold": 7,
+      "role": "funding",
+      "ap": 0.8374112623008801
+    },
+    {
+      "fold": 7,
+      "role": "receiving",
+      "ap": 0.11867470021026644
+    },
+    {
+      "fold": 8,
+      "role": "funding",
+      "ap": 0.9103349580479604
+    },
+    {
+      "fold": 8,
+      "role": "receiving",
+      "ap": 0.1489144692182972
+    },
+    {
+      "fold": 9,
+      "role": "funding",
+      "ap": 0.898246049785376
+    },
+    {
+      "fold": 9,
+      "role": "receiving",
+      "ap": 0.14189591892887066
+    },
+    {
+      "fold": 10,
+      "role": "funding",
+      "ap": 0.8525101444403811
+    },
+    {
+      "fold": 10,
+      "role": "receiving",
+      "ap": 0.17097448011826094
+    }
+  ],
+  "gcn_cohorts": {
+    "definition": "Seen funding cluster appeared as funding in the fit subset; test subgroups are observational and have different prevalence.",
+    "summary": [
+      {
+        "cohort": "no_funding",
+        "graphs": 3908,
+        "positives": 69,
+        "gcn_ap_mean": 0.41125277167536567,
+        "folds_with_positives": 10
+      },
+      {
+        "cohort": "seen_funding",
+        "graphs": 93255,
+        "positives": 1942,
+        "gcn_ap_mean": 0.9513895091764839,
+        "folds_with_positives": 10
+      },
+      {
+        "cohort": "unseen_funding_only",
+        "graphs": 285,
+        "positives": 188,
+        "gcn_ap_mean": 0.8801861246537384,
+        "folds_with_positives": 10
+      }
+    ],
+    "folds": [
+      {
+        "fold": 1,
+        "cohort": "seen_funding",
+        "graphs": 9318,
+        "positives": 200,
+        "gcn_ap": 0.9320394587421162
+      },
+      {
+        "fold": 1,
+        "cohort": "unseen_funding_only",
+        "graphs": 20,
+        "positives": 14,
+        "gcn_ap": 0.7061029073634116
+      },
+      {
+        "fold": 1,
+        "cohort": "no_funding",
+        "graphs": 407,
+        "positives": 6,
+        "gcn_ap": 0.6241111829347123
+      },
+      {
+        "fold": 2,
+        "cohort": "seen_funding",
+        "graphs": 9329,
+        "positives": 199,
+        "gcn_ap": 0.9454652024936566
+      },
+      {
+        "fold": 2,
+        "cohort": "unseen_funding_only",
+        "graphs": 24,
+        "positives": 13,
+        "gcn_ap": 0.867047055508594
+      },
+      {
+        "fold": 2,
+        "cohort": "no_funding",
+        "graphs": 392,
+        "positives": 8,
+        "gcn_ap": 0.5610450858328617
+      },
+      {
+        "fold": 3,
+        "cohort": "seen_funding",
+        "graphs": 9304,
+        "positives": 181,
+        "gcn_ap": 0.9565638752819446
+      },
+      {
+        "fold": 3,
+        "cohort": "unseen_funding_only",
+        "graphs": 40,
+        "positives": 27,
+        "gcn_ap": 0.9359660497974398
+      },
+      {
+        "fold": 3,
+        "cohort": "no_funding",
+        "graphs": 401,
+        "positives": 12,
+        "gcn_ap": 0.746837044534413
+      },
+      {
+        "fold": 4,
+        "cohort": "seen_funding",
+        "graphs": 9307,
+        "positives": 188,
+        "gcn_ap": 0.9263138025011995
+      },
+      {
+        "fold": 4,
+        "cohort": "unseen_funding_only",
+        "graphs": 34,
+        "positives": 26,
+        "gcn_ap": 0.9135485043045152
+      },
+      {
+        "fold": 4,
+        "cohort": "no_funding",
+        "graphs": 404,
+        "positives": 6,
+        "gcn_ap": 0.11768471641352998
+      },
+      {
+        "fold": 5,
+        "cohort": "seen_funding",
+        "graphs": 9335,
+        "positives": 195,
+        "gcn_ap": 0.9493359791315243
+      },
+      {
+        "fold": 5,
+        "cohort": "unseen_funding_only",
+        "graphs": 22,
+        "positives": 17,
+        "gcn_ap": 0.954030888373449
+      },
+      {
+        "fold": 5,
+        "cohort": "no_funding",
+        "graphs": 388,
+        "positives": 8,
+        "gcn_ap": 0.2641870447130376
+      },
+      {
+        "fold": 6,
+        "cohort": "seen_funding",
+        "graphs": 9347,
+        "positives": 197,
+        "gcn_ap": 0.9690056512263502
+      },
+      {
+        "fold": 6,
+        "cohort": "unseen_funding_only",
+        "graphs": 29,
+        "positives": 18,
+        "gcn_ap": 0.9345897784133079
+      },
+      {
+        "fold": 6,
+        "cohort": "no_funding",
+        "graphs": 369,
+        "positives": 5,
+        "gcn_ap": 0.5303191489361703
+      },
+      {
+        "fold": 7,
+        "cohort": "seen_funding",
+        "graphs": 9314,
+        "positives": 187,
+        "gcn_ap": 0.9640612428020795
+      },
+      {
+        "fold": 7,
+        "cohort": "unseen_funding_only",
+        "graphs": 33,
+        "positives": 24,
+        "gcn_ap": 0.9240283117705353
+      },
+      {
+        "fold": 7,
+        "cohort": "no_funding",
+        "graphs": 398,
+        "positives": 9,
+        "gcn_ap": 0.4725278792951518
+      },
+      {
+        "fold": 8,
+        "cohort": "seen_funding",
+        "graphs": 9368,
+        "positives": 203,
+        "gcn_ap": 0.9465552588900537
+      },
+      {
+        "fold": 8,
+        "cohort": "unseen_funding_only",
+        "graphs": 22,
+        "positives": 12,
+        "gcn_ap": 0.8544943482443482
+      },
+      {
+        "fold": 8,
+        "cohort": "no_funding",
+        "graphs": 355,
+        "positives": 5,
+        "gcn_ap": 0.29262722299602334
+      },
+      {
+        "fold": 9,
+        "cohort": "seen_funding",
+        "graphs": 9330,
+        "positives": 200,
+        "gcn_ap": 0.9628717629739144
+      },
+      {
+        "fold": 9,
+        "cohort": "unseen_funding_only",
+        "graphs": 23,
+        "positives": 15,
+        "gcn_ap": 0.8683545937493305
+      },
+      {
+        "fold": 9,
+        "cohort": "no_funding",
+        "graphs": 391,
+        "positives": 4,
+        "gcn_ap": 0.13437955928963125
+      },
+      {
+        "fold": 10,
+        "cohort": "seen_funding",
+        "graphs": 9303,
+        "positives": 192,
+        "gcn_ap": 0.9616828577220005
+      },
+      {
+        "fold": 10,
+        "cohort": "unseen_funding_only",
+        "graphs": 38,
+        "positives": 22,
+        "gcn_ap": 0.8436988090124511
+      },
+      {
+        "fold": 10,
+        "cohort": "no_funding",
+        "graphs": 403,
+        "positives": 6,
+        "gcn_ap": 0.36880883180812485
+      }
+    ]
+  }
+}

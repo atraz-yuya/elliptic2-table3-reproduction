@@ -1,0 +1,15 @@
+{
+  "status": "exploratory paired sensitivity analysis",
+  "changed": "Set all three role-indicator input columns to 0 before training and evaluation",
+  "model": "gcn",
+  "folds": 10,
+  "baseline_manifest_sha256": "53ab12cfcedf6f34f374adee69050c270940d4cc8caeb16aae62da6fbec37cea",
+  "split_sha256": "4b739486a1a8ae3a7c12dea5db756d54b55ae1bade2fc099cb1428dbdea6eb00",
+  "script_sha256": "20d41981388c5234cbf7f3c9b8533f4444f8ebc025656430e3647ea5f5e1fa4f",
+  "torch": "2.12.0+cu130",
+  "device": "cuda",
+  "command": [
+    "/home/atraz/research/elliptic2-structure-thesis/.venv-gnn-v1/bin/python",
+    "table3_message_passing/results_paper/role_flags_control/run_control.py"
+  ]
+}

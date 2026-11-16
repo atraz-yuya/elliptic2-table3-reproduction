@@ -1,0 +1,212 @@
+{
+  "1": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9490,
+      "graphs": 9745,
+      "fraction": 0.9738327347357619
+    }
+  },
+  "2": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9505,
+      "graphs": 9745,
+      "fraction": 0.9753719856336582
+    }
+  },
+  "3": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9473,
+      "graphs": 9745,
+      "fraction": 0.9720882503848127
+    }
+  },
+  "4": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9478,
+      "graphs": 9745,
+      "fraction": 0.9726013340174449
+    }
+  },
+  "5": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9501,
+      "graphs": 9745,
+      "fraction": 0.9749615187275525
+    }
+  },
+  "6": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9510,
+      "graphs": 9745,
+      "fraction": 0.9758850692662904
+    }
+  },
+  "7": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9504,
+      "graphs": 9745,
+      "fraction": 0.9752693689071319
+    }
+  },
+  "8": {
+    "counts": {
+      "fit": {
+        "graphs": 78932,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9745,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9521,
+      "graphs": 9745,
+      "fraction": 0.9770138532580811
+    }
+  },
+  "9": {
+    "counts": {
+      "fit": {
+        "graphs": 78933,
+        "suspicious": 1782
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9744,
+        "suspicious": 219
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9491,
+      "graphs": 9744,
+      "fraction": 0.9740353037766831
+    }
+  },
+  "10": {
+    "counts": {
+      "fit": {
+        "graphs": 78933,
+        "suspicious": 1781
+      },
+      "validation": {
+        "graphs": 8771,
+        "suspicious": 198
+      },
+      "test": {
+        "graphs": 9744,
+        "suspicious": 220
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 9478,
+      "graphs": 9744,
+      "fraction": 0.9727011494252874
+    }
+  }
+}

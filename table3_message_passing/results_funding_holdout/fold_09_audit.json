@@ -1,0 +1,26 @@
+{
+  "test_funding_clusters": 5224,
+  "test_funding_clusters_in_fit_or_validation": 0,
+  "test_graphs_and_labels_unchanged": true,
+  "fit": {
+    "graphs": 78933,
+    "suspicious": 1782,
+    "graphs_with_removed_nodes": 76678,
+    "removed_node_instances": 157985,
+    "removed_edges": 182038
+  },
+  "validation": {
+    "graphs": 8771,
+    "suspicious": 198,
+    "graphs_with_removed_nodes": 8546,
+    "removed_node_instances": 17694,
+    "removed_edges": 20358
+  },
+  "test": {
+    "graphs": 9744,
+    "suspicious": 219,
+    "graphs_with_removed_nodes": 0,
+    "removed_node_instances": 0,
+    "removed_edges": 0
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "1": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "2": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "3": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "4": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "5": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "6": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "7": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2238
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 276
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "8": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2237
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 277
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "9": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2237
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 277
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  },
+  "10": {
+    "counts": {
+      "fit": {
+        "graphs": 98666,
+        "suspicious": 2237
+      },
+      "validation": {
+        "graphs": 10963,
+        "suspicious": 249
+      },
+      "test": {
+        "graphs": 12181,
+        "suspicious": 277
+      }
+    },
+    "outer_fit_entity_overlap": {
+      "shared_graphs": 12181,
+      "graphs": 12181,
+      "fraction": 1.0
+    }
+  }
+}

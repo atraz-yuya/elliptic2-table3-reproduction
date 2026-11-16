@@ -1,0 +1,245 @@
+{
+  "runs": [
+    {
+      "fold": 1,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 1,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 1,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 1,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 2,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 2,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 2,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 2,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 3,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 3,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 3,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 3,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 4,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 4,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 4,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 4,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 5,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 5,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 5,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 5,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 6,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 6,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 6,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 6,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 7,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 7,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 7,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 7,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 8,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 8,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 8,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 8,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 9,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 9,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 9,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 9,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 10,
+      "model": "gcn",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 10,
+      "model": "graphsage",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 10,
+      "model": "gat",
+      "graphs": 128,
+      "logits_identical": true
+    },
+    {
+      "fold": 10,
+      "model": "gin",
+      "graphs": 128,
+      "logits_identical": true
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,47 @@
+{
+  "definition": "Connect each graph to every node in any role that is a funding entity anywhere; connected components give a sufficient all-role group split.",
+  "components": 2533,
+  "graphs": 97448,
+  "largest": [
+    {
+      "graphs": 94911,
+      "suspicious": 2140
+    },
+    {
+      "graphs": 2,
+      "suspicious": 0
+    },
+    {
+      "graphs": 2,
+      "suspicious": 0
+    },
+    {
+      "graphs": 2,
+      "suspicious": 2
+    },
+    {
+      "graphs": 2,
+      "suspicious": 0
+    },
+    {
+      "graphs": 2,
+      "suspicious": 2
+    },
+    {
+      "graphs": 1,
+      "suspicious": 0
+    },
+    {
+      "graphs": 1,
+      "suspicious": 0
+    },
+    {
+      "graphs": 1,
+      "suspicious": 0
+    },
+    {
+      "graphs": 1,
+      "suspicious": 0
+    }
+  ]
+}
